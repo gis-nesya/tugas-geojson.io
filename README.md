@@ -1,22 +1,22 @@
-# Tugas Pemetaan Sederhana: Data Jalan untuk Database
+🌎 Tugas Pemetaan Geospasial: Jaringan Jalan Area Sarimanah
+Proyek ini adalah penyelesaian tugas untuk membuat, memvalidasi, dan mengintegrasikan data geospasial (jalan) dalam format GeoJSON ke dalam alur kerja pengembangan menggunakan GitHub dan MongoDB.
 
-Halo! Repositori ini berisi hasil tugas saya untuk mendigitalkan (memetakan) jalan dan menyimpannya ke dalam database.
+1. Data GeoJSON (LineString)
+Data yang digunakan bersumber dari file tugas-1.geojson. File ini memetakan jaringan jalan di sebuah area residensial, di mana jalan utama yang teridentifikasi dalam properti data adalah Jalan Sarimanah dan Jalan Sariasih.
 
-## File Utama: Peta Jalan Kita (`tugas-1.geojson`)
+Data ini terdiri dari total 15 segmen jalan  (Feature) yang direpresentasikan menggunakan tipe geometri LineString. Setiap Feature LineString menyimpan atribut penting, seperti tipe jalan (residential, living_street, atau tertiary) , lebar jalan , dan koordinat geografisnya.
 
-Bayangkan ini seperti **peta digital** yang dibuat khusus untuk komputer.
+2. Validasi Sintaks dan Semantik
+Struktur GeoJSON dari file tugas-1.geojson sudah memenuhi standar GeoJSON.
 
-* [cite_start]**Apa Isinya?** File ini berisi **14 garis** [cite: 1] yang menggambarkan jalan-jalan di satu area perumahan.
-* **Kenapa Garis?** Karena jalan adalah garis (LineString) di peta.
-* **Apa saja Informasi di Dalamnya?** Selain bentuk garisnya, setiap jalan punya "kartu identitas" (disebut *properties*). Jadi, kita tahu ini Jalan apa, misalnya:
-    * [cite_start]**Nama Jalan:** "Jalan Sarimanah 2" [cite: 1] [cite_start]atau "Jalan Sariasih"[cite: 28, 58].
-    * [cite_start]**Tipe Jalan:** Ada jalan utama (*tertiary* [cite: 58][cite_start]), jalan perumahan biasa (*residential* [cite: 1, 28][cite_start]), dan jalan-jalan kecil (*living_street* [cite: 7, 10, 16, 20, 23, 30, 34, 38, 44, 47, 54, 57]).
-    * [cite_start]**Lebar/Lajur:** Ada yang punya 2 lajur [cite: 1, 57][cite_start], ada yang 1 lajur[cite: 7, 10, 16, 20, 23, 28, 30, 34, 45, 54].
-    * [cite_start]**Permukaan:** Ada yang aspal [cite: 1, 16, 20, 23, 34, 45, 54][cite_start], ada yang beton (*concrete* [cite: 7, 23]).
+Sintaks: Struktur data FeatureCollection yang membungkus 15 Feature LineString  sudah terjamin kebenarannya secara sintaksis.
 
-## Cek dan Ricek Data (Validasi)
+Semantik: Apabila data ini dibuka pada platform visualisasi (seperti geojson.io), semua 15 segmen jalan akan berhasil dirender dan ditampilkan sebagai garis yang terhubung, yang mengonfirmasi validitasnya secara semantik.
 
-File peta ini sudah saya pastikan benar, baik bentuknya maupun isinya:
+3. Dokumentasi dan Penyimpanan di GitHub
+File GeoJSON yang telah divalidasi, yaitu tugas-1.geojson, telah diunggah ke repositori GitHub ini. Repositori ini berfungsi sebagai tempat penyimpanan data geospasial dan dokumentasi resmi proyek.
 
-* **Bentuk Kode (Sintaks):** Kode GeoJSON-nya sudah rapi, tidak ada salah ketik atau salah taruh kurung, jadi komputer pasti bisa membacanya.
-* **Bentuk di Peta (Semantik):** Garis-garis jalan ini muncul dengan benar di peta digital (saat dicek di geojson.io). Jadi, bentuknya memang sudah sesuai dengan jalan yang sebenarnya di lokasi.
+4. Integrasi Akhir dengan MongoDB
+Data dari file GeoJSON telah berhasil diimpor ke database NoSQL MongoDB.
+
+Sesuai dengan persyaratan tugas, aturan impor yang diterapkan adalah satu jalan (Feature) diubah menjadi satu record (dokumen). Dengan adanya 15 Feature di dalam file, impor ke MongoDB menghasilkan 15 dokumen di dalam collection, di mana setiap dokumen menyimpan geometri LineString lengkap dan properti dari satu segmen jalan.
