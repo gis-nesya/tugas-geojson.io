@@ -1,0 +1,795 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2025-10-20T07:03:00Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/145117345",
+        "highway": "residential",
+        "lanes": "2",
+        "name": "Jalan Sarimanah 2",
+        "surface": "asphalt",
+        "width": "4"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5749734,
+            -6.8766497
+          ],
+          [
+            107.575188,
+            -6.8767641
+          ],
+          [
+            107.5752912,
+            -6.8768174
+          ],
+          [
+            107.5757691,
+            -6.8770262
+          ],
+          [
+            107.5762317,
+            -6.8772345
+          ],
+          [
+            107.5766056,
+            -6.8774028
+          ],
+          [
+            107.5768675,
+            -6.8775207
+          ],
+          [
+            107.577563,
+            -6.8778339
+          ],
+          [
+            107.5784713,
+            -6.8782448
+          ],
+          [
+            107.5793283,
+            -6.8786286
+          ]
+        ]
+      },
+      "id": "way/145117345"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/152806328",
+        "highway": "living_street",
+        "lanes": "1",
+        "motorcar": "destination",
+        "motorcycle": "yes",
+        "surface": "concrete",
+        "width": "2.5"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5755996,
+            -6.8759031
+          ],
+          [
+            107.5761459,
+            -6.8761448
+          ],
+          [
+            107.5766163,
+            -6.8763529
+          ],
+          [
+            107.577013,
+            -6.8765284
+          ]
+        ]
+      },
+      "id": "way/152806328"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/154250086",
+        "highway": "living_street",
+        "lanes": "1",
+        "motorcar": "destination",
+        "motorcycle": "yes",
+        "surface": "asphalt",
+        "width": "2"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5762205,
+            -6.8759746
+          ],
+          [
+            107.5759692,
+            -6.8758637
+          ],
+          [
+            107.5757005,
+            -6.8757508
+          ],
+          [
+            107.5756879,
+            -6.8757486
+          ],
+          [
+            107.5756765,
+            -6.8757517
+          ],
+          [
+            107.5756673,
+            -6.8757562
+          ],
+          [
+            107.5756587,
+            -6.8757662
+          ],
+          [
+            107.5755996,
+            -6.8759031
+          ],
+          [
+            107.5754565,
+            -6.8761843
+          ],
+          [
+            107.5753415,
+            -6.8764449
+          ],
+          [
+            107.575188,
+            -6.8767641
+          ]
+        ]
+      },
+      "id": "way/154250086"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/154250087",
+        "highway": "living_street",
+        "lanes": "1",
+        "motorcar": "destination",
+        "motorcycle": "yes",
+        "surface": "asphalt",
+        "width": "2.5"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.577013,
+            -6.8765284
+          ],
+          [
+            107.576959,
+            -6.8766443
+          ],
+          [
+            107.5768815,
+            -6.8768107
+          ],
+          [
+            107.5767462,
+            -6.8771013
+          ],
+          [
+            107.5766056,
+            -6.8774028
+          ]
+        ]
+      },
+      "id": "way/154250087"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/154256890",
+        "highway": "living_street",
+        "lanes": "1",
+        "motorcar": "destination",
+        "motorcycle": "yes",
+        "surface": "asphalt",
+        "width": "2.5"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.577013,
+            -6.8765284
+          ],
+          [
+            107.5771406,
+            -6.8762497
+          ],
+          [
+            107.5772613,
+            -6.8759705
+          ],
+          [
+            107.5773886,
+            -6.8757026
+          ],
+          [
+            107.5774086,
+            -6.8756601
+          ]
+        ]
+      },
+      "id": "way/154256890"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/154256893",
+        "highway": "living_street",
+        "lanes": "1",
+        "motorcar": "destination",
+        "motorcycle": "yes",
+        "surface": "concrete",
+        "width": "2"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5762734,
+            -6.8758586
+          ],
+          [
+            107.5771406,
+            -6.8762497
+          ],
+          [
+            107.5778701,
+            -6.8765658
+          ],
+          [
+            107.5778782,
+            -6.8765668
+          ],
+          [
+            107.5778863,
+            -6.8765657
+          ],
+          [
+            107.5778929,
+            -6.8765622
+          ],
+          [
+            107.577899,
+            -6.8765561
+          ]
+        ]
+      },
+      "id": "way/154256893"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/154256894",
+        "highway": "residential",
+        "lanes": "1",
+        "name": "Jalan Sariasih III",
+        "width": "3"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5762661,
+            -6.8751665
+          ],
+          [
+            107.576243,
+            -6.8752209
+          ],
+          [
+            107.5759692,
+            -6.8758637
+          ]
+        ]
+      },
+      "id": "way/154256894"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/154256895",
+        "highway": "living_street",
+        "lanes": "1",
+        "motorcar": "destination",
+        "motorcycle": "yes",
+        "surface": "asphalt",
+        "width": "2"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5765243,
+            -6.8752757
+          ],
+          [
+            107.5764886,
+            -6.8753578
+          ],
+          [
+            107.5763907,
+            -6.8755861
+          ],
+          [
+            107.5762734,
+            -6.8758586
+          ],
+          [
+            107.5762205,
+            -6.8759746
+          ]
+        ]
+      },
+      "id": "way/154256895"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/154256897",
+        "highway": "living_street",
+        "lanes": "1",
+        "motorcar": "destination",
+        "motorcycle": "yes",
+        "surface": "asphalt",
+        "width": "2"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5763907,
+            -6.8755861
+          ],
+          [
+            107.5772613,
+            -6.8759705
+          ],
+          [
+            107.5779747,
+            -6.8763015
+          ],
+          [
+            107.5779826,
+            -6.8763079
+          ],
+          [
+            107.5779875,
+            -6.8763164
+          ],
+          [
+            107.5779903,
+            -6.876325
+          ],
+          [
+            107.5779892,
+            -6.8763374
+          ]
+        ]
+      },
+      "id": "way/154256897"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/154780339",
+        "highway": "living_street"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5767462,
+            -6.8771013
+          ],
+          [
+            107.5774315,
+            -6.8773978
+          ],
+          [
+            107.5774394,
+            -6.8773998
+          ],
+          [
+            107.5774476,
+            -6.8773987
+          ],
+          [
+            107.5774541,
+            -6.8773955
+          ],
+          [
+            107.5774598,
+            -6.8773896
+          ],
+          [
+            107.5775209,
+            -6.8772725
+          ]
+        ]
+      },
+      "id": "way/154780339"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/154780340",
+        "highway": "living_street"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5754565,
+            -6.8761843
+          ],
+          [
+            107.576015,
+            -6.8764452
+          ],
+          [
+            107.5764749,
+            -6.8766537
+          ]
+        ]
+      },
+      "id": "way/154780340"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/154780341",
+        "highway": "living_street",
+        "lanes": "1",
+        "motorcar": "destination",
+        "motorcycle": "yes",
+        "surface": "asphalt",
+        "width": "2"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5761459,
+            -6.8761448
+          ],
+          [
+            107.576015,
+            -6.8764452
+          ],
+          [
+            107.5758986,
+            -6.876717
+          ],
+          [
+            107.5757691,
+            -6.8770262
+          ]
+        ]
+      },
+      "id": "way/154780341"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/154780342",
+        "highway": "living_street",
+        "motorcar": "no"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5753415,
+            -6.8764449
+          ],
+          [
+            107.5758986,
+            -6.876717
+          ],
+          [
+            107.5763604,
+            -6.8769231
+          ]
+        ]
+      },
+      "id": "way/154780342"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/154780344",
+        "highway": "living_street"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5768815,
+            -6.8768107
+          ],
+          [
+            107.5775611,
+            -6.8771392
+          ],
+          [
+            107.5775694,
+            -6.8771463
+          ],
+          [
+            107.5775748,
+            -6.8771549
+          ],
+          [
+            107.5775756,
+            -6.8771651
+          ],
+          [
+            107.5775724,
+            -6.8771742
+          ],
+          [
+            107.5775209,
+            -6.8772725
+          ]
+        ]
+      },
+      "id": "way/154780344"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/154780346",
+        "highway": "living_street",
+        "lanes": "1",
+        "motorcar": "destination",
+        "motorcycle": "yes",
+        "surface": "asphalt",
+        "width": "2"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5766163,
+            -6.8763529
+          ],
+          [
+            107.5764749,
+            -6.8766537
+          ],
+          [
+            107.5763604,
+            -6.8769231
+          ],
+          [
+            107.5762317,
+            -6.8772345
+          ]
+        ]
+      },
+      "id": "way/154780346"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/318670710",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Sariasih",
+        "width": "4"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5781315,
+            -6.8759874
+          ],
+          [
+            107.5774753,
+            -6.87569
+          ],
+          [
+            107.5774086,
+            -6.8756601
+          ],
+          [
+            107.5765243,
+            -6.8752757
+          ],
+          [
+            107.5762661,
+            -6.8751665
+          ],
+          [
+            107.5759542,
+            -6.8750264
+          ],
+          [
+            107.5758513,
+            -6.8749793
+          ],
+          [
+            107.5756273,
+            -6.8748735
+          ]
+        ]
+      },
+      "id": "way/318670710"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/574251564",
+        "highway": "living_street",
+        "lanes": "1",
+        "motorcar": "destination",
+        "motorcycle": "yes",
+        "surface": "asphalt",
+        "width": "2"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5762205,
+            -6.8759746
+          ],
+          [
+            107.5761459,
+            -6.8761448
+          ]
+        ]
+      },
+      "id": "way/574251564"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/574251574",
+        "access": "private",
+        "highway": "residential"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5759273,
+            -6.8750904
+          ],
+          [
+            107.5757754,
+            -6.8754507
+          ],
+          [
+            107.575767,
+            -6.8754573
+          ],
+          [
+            107.5757591,
+            -6.8754608
+          ],
+          [
+            107.5757512,
+            -6.8754613
+          ],
+          [
+            107.5756587,
+            -6.8754213
+          ]
+        ]
+      },
+      "id": "way/574251574"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/585027209",
+        "highway": "service",
+        "lanes": "1",
+        "service": "alley",
+        "width": "2"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5763604,
+            -6.8769231
+          ],
+          [
+            107.5767462,
+            -6.8771013
+          ]
+        ]
+      },
+      "id": "way/585027209"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1056571395",
+        "highway": "service"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.576959,
+            -6.8766443
+          ],
+          [
+            107.5770584,
+            -6.8766865
+          ],
+          [
+            107.577067,
+            -6.8766963
+          ],
+          [
+            107.5770678,
+            -6.8767086
+          ],
+          [
+            107.5770391,
+            -6.8767648
+          ]
+        ]
+      },
+      "id": "way/1056571395"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1156904231",
+        "highway": "living_street",
+        "lanes": "1",
+        "motorcar": "destination",
+        "motorcycle": "yes",
+        "surface": "asphalt",
+        "width": "2.5"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.577013,
+            -6.8765284
+          ],
+          [
+            107.5778849,
+            -6.8769299
+          ],
+          [
+            107.5779551,
+            -6.8769542
+          ]
+        ]
+      },
+      "id": "way/1156904231"
+    }
+  ]
+}
